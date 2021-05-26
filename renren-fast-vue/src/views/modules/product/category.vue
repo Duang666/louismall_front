@@ -125,6 +125,7 @@ export default {
       })
     },
 
+    // TODO:需要重新理解商品服务，三级分类
     batchDelete () {
       let catIds = []
       let checkedNodes = this.$refs.menuTree.getCheckedNodes()
